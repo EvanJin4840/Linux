@@ -59,3 +59,17 @@ OID는 Object Identifier의 줄임말이야.
 
 ```text
 bps = (현재값 - 이전값) * 8 / 측정간격(초)
+```
+
+## SNMP Tools
+
+* snmpwalk : 지정한 OID 서브트리를 GETNEXT로 순차 탐색하는 도구.
+Walk a subtree sequentially with GETNEXT.
+- 작은 트리/간단 확인, 구버전 v1 에이전트 지원이 필요할 때 사용
+
+* snmpbulkwalk : SNMPv2c/v3의 GETBULK를 사용해 한 번에 여러 항목을 받아 왕복 횟수/지연을 줄이는 도구.
+Use GETBULK to fetch many values per request (fewer round trips).
+- 대형 테이블(인터페이스/라우팅 등) 덤프, 지연이 큰 네트워크, 속도 최적화가 필요할 때 사용
+
+* 요점: 큰 테이블(예: ifTable)은 snmpbulkwalk가 보통 더 빠릅니다.
+Note: snmpbulkwalk needs v2c/v3 (no GETBULK in v1).
