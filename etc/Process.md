@@ -1,11 +1,7 @@
 ## what is the demon process? 
 
 * 정의: 사용자의 터미널(화면)과 붙어있지 않은 백그라운드 서비스 프로세스. 시스템이 켜져 있는 동안 지속적으로 대기하며 요청을 처리하거나 주기적으로 일을 함. (예시 : sshd, cron, nginx)
-
-## Crontab
-
-* 정의: crontab은 사용자의 예약 작업 목록이고, 이를 읽어 **cron 데몬(crond)**이 지정한 시각에 명령을 실행함.
-* Definition: crontab is a per-user schedule file; the cron daemon runs listed commands at specified times.
+* 참고: crontab은 사용자의 예약 작업 목록이고, 이를 읽어 **cron 데몬(crond)**이 지정한 시각에 명령을 실행함.
 
 #### where entries live?
 
