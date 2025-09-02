@@ -8,3 +8,12 @@
 - I : 커서가 위치한 행의 첫 칼럼으로 이동하여 입력
 - A : 커서가 위치한 행의 마지막 칼럼으로 이동하여 입력
 - O : 커서가 위치한 행의 앞 행에 입력
+
+#### 파일 저장 및 종료 키
+* mode of last row
+- :q : quit when there was no work you have done
+- :q! : quit without saving your work
+- :w[file name] : only saving your work. if you designated the file name, it will be saved as a new file name
+- :wq, :wq! : saving your work and quit the vi
+
+* order mode
