@@ -10,10 +10,12 @@
 - O : 커서가 위치한 행의 앞 행에 입력
 
 #### 파일 저장 및 종료 키
-* mode of last row
+
+* Last-line mode
 - :q : quit when there was no work you have done
 - :q! : quit without saving your work
 - :w[file name] : only saving your work. if you designated the file name, it will be saved as a new file name
 - :wq, :wq! : saving your work and quit the vi
 
-* order mode
+* Command mode
+(Shift+zz) ZZ : quit vi after saving your work
