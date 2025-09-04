@@ -19,3 +19,11 @@
 
 * Command mode
 (Shift+zz) ZZ : quit vi after saving your work
+
+#### 커서 이동 명령 키
+
+- k : move the cursor up one line
+- j : move the cursor down one line
+- l : move the cursor one character to the right
+- h : move the cursor one character to the left
+- ^
