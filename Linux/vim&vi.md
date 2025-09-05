@@ -27,3 +27,23 @@
 - l : move the cursor one character to the right
 - h : move the cursor one character to the left
 - ^
+
+### vim 사용법
+
+a : 커서 위치 다음칸부터 입력
+A : 커서 행의 맨 마지막부터 입력
+i : 커서의 위치에 입력
+I : 커서 행의 맨 앞에서 부터 입력
+o : 커서의 다음행에 입력
+O : 커서의 이전 행에 입력
+s : 커서 위치의 한글자를 지우고 입력
+cc : 커서 위치의 한 행을 지우고 입력
+
+b : 한 단어 뒤로 이동 (back) 
+w : 한 단어 앞으로 이동 (forward) 
+H : 화면 맨 위로 이동 
+M : 화면 중간으로 이동 
+L = G : 화면 맨 아래로 이동 
+nG : n번째 줄로 이동 
+
+출처: https://sseozytank.tistory.com/77
