@@ -46,4 +46,12 @@ M : 화면 중간으로 이동
 L = G : 화면 맨 아래로 이동 
 nG : n번째 줄로 이동 
 
+* 복사 (yank) 
+yy  : 한줄 복사
+yyn : n줄 만큼 복사 (똑같은걸 n줄 복사)  
+yw  : 한 단어 복사 (yank word) 
+ynw : n 단어 복사 (똑같은 단어를 n번 복사) 
+y$  : 커서부터 이줄 끝까지 복사 
+y0  : 커서부터 이줄 앞까지 복사
+
 출처: https://sseozytank.tistory.com/77
